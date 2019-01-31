@@ -18,6 +18,23 @@ nav li {
 	display: inline;
 }
 
+nav a {
+	text-decoration: none;
+	color: black;
+}
+
+nav a:visited {
+	color: black;
+}
+
+nav a:hover {
+	color: blue;
+}
+
+li {
+	display: inline;
+}
+
 .myMainMenu {
 	display: flex;
 	justify-content: space-between;
@@ -27,10 +44,10 @@ nav li {
 .myImage {
 	width: 18rem;
 	border: 1px solid RGB(202, 202, 202);
-	margin: 1rem;
+	margin: 0.9rem;
 }
 .myImage2 {
-	width: 2rem;
+	width: 1.5rem;
 }
 
 .mySection {
@@ -43,6 +60,7 @@ nav li {
 	display: flex;
 	align-items: flex-start;
 	justify-content: space-between;
+	padding: 0rem;
 	margin: 0.9rem;
 	border-bottom: 1px solid #f3f3f3;
 }
@@ -52,11 +70,26 @@ nav li {
 }
 
 .myFontMenu {
-	font-family: Arial, Helvetica, sans-serif;
-	font-style: bold;
+	font-weight: bold;
+	font-size: 0.8rem;
 }
 
 .mySection1 {
 	display: flex;
+
 	justify-content: space-around;
+}
+
+.p1 {
+	font-weight: bold;
+	color: #777;
+}
+
+.p2 {
+	font-weight: bold;
+	color: #333;
+}
+.p3 {
+	font-weight: bold;
+	color: #cacaca;
 }
