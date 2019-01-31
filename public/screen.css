@@ -43,7 +43,7 @@ li {
 }
 
 .myImage {
-	width: 18rem;
+	width: 30rem;
 	border: 1px solid RGB(202, 202, 202);
 	margin: 0.9rem 0.9rem 0rem 0.9rem;
 }
@@ -58,17 +58,16 @@ li {
 }
 .mySection1 {
 	display: flex;
-
 	justify-content: space-around;
 }
 .mySection2 {
 	display: flex;
-	align-items: flex-start;
+	justify-content: flex-end;
+	margin: 0rem 0.9rem 0rem 0.9rem;
 }
 
 .myFigurationCaption {
 	display: flex;
-	align-items: flex-start;
 	justify-content: space-between;
 	padding: 0rem;
 	margin: 0rem 0.9rem 0.9rem 0.9rem;
