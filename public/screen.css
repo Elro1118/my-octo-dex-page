@@ -39,12 +39,13 @@ li {
 	display: flex;
 	justify-content: space-between;
 	background-color: #f3f3f3;
+	padding: 0.5rem;
 }
 
 .myImage {
 	width: 18rem;
 	border: 1px solid RGB(202, 202, 202);
-	margin: 0.9rem;
+	margin: 0.9rem 0.9rem 0rem 0.9rem;
 }
 .myImage2 {
 	width: 1.5rem;
@@ -55,29 +56,33 @@ li {
 	justify-content: center;
 	flex-wrap: wrap;
 }
+.mySection1 {
+	display: flex;
+
+	justify-content: space-around;
+}
+.mySection2 {
+	display: flex;
+	align-items: flex-start;
+}
 
 .myFigurationCaption {
 	display: flex;
 	align-items: flex-start;
 	justify-content: space-between;
 	padding: 0rem;
-	margin: 0.9rem;
-	border-bottom: 1px solid #f3f3f3;
+	margin: 0rem 0.9rem 0.9rem 0.9rem;
+	border-bottom: 1px solid RGB(202, 202, 202);
 }
 
 .myLogo {
 	width: 15rem;
+	padding: 0.5rem;
 }
 
 .myFontMenu {
 	font-weight: bold;
 	font-size: 0.8rem;
-}
-
-.mySection1 {
-	display: flex;
-
-	justify-content: space-around;
 }
 
 .p1 {
