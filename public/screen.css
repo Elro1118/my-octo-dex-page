@@ -105,6 +105,15 @@ li {
 		align-items: center;
 		justify-content: center;
 	}
+	.myMainMenu {
+		margin: 0px;
+	}
+	.myLogo {
+		width: 5rem;
+	}
+	.myImage {
+		width: 15rem;
+	}
 }
 
 @media (min-width: 601px) {
