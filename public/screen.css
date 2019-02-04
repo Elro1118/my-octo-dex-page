@@ -97,3 +97,29 @@ li {
 	font-weight: bold;
 	color: #cacaca;
 }
+
+@media (max-width: 600px) {
+	.mySection {
+		display: flex;
+		flex-flow: column wrap;
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+@media (min-width: 601px) {
+	.mySection {
+		display: flex;
+		flex-flow: column wrap;
+		align-items: center;
+		justify-content: center;
+	}
+}
+@media (min-width: 700px) {
+	.mySection {
+		display: flex;
+		flex-flow: row wrap;
+		align-items: center;
+		justify-content: center;
+	}
+}
